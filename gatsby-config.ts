@@ -5,7 +5,11 @@ const config: GatsbyConfig = {
     title: `cv`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-theme-ui"]
+  plugins: [
+    "gatsby-plugin-theme-ui",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ]
 };
 
 export default config;
